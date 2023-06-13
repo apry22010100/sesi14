@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 01</title>
+   
+<body>
+
+    <div id="tampil1">Isi dari Tampil 1</div>
+    <div class="tampil1">Isi dari class Tampil 1</div>
+
+    <p>isi paragraph</p>
+    <div id="p1">p1</div>
+    <div class="p2">p2</div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#tampil1").html("Nyoman Aprianti");
+            $(".tampil1").html("25 Oktober 2003");
+            $("h3").html("Biodata");
+            $("p").html("Tentang Saya");
+            $("#p1").html("Trisnantara");
+            $(".p2").html("MY LOVE");
+
+        });
+
+        
+    </script>
+
+    
+</body>
+</html>
